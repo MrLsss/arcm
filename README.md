@@ -138,7 +138,7 @@ Arc 相关选项在来源或目标为 Arc 时可用：
 
 一步命令不生成中间 HTML，复用同一套导出/导入逻辑。参数按来源/目标校验，例如 `--space` 和 `--no-topapps` 作用于 Arc 来源或目标，`--restart` 只在目标为 Arc 时可用。
 
-## 校验和
+## 校验
 
 `arcm verify` 校验的是 Chromium `Bookmarks` 文件的 `checksum`，算法来自 Chromium `BookmarkCodec`：
 
